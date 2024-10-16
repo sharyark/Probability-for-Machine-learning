@@ -12,13 +12,13 @@ If \( A_1, A_2, ..., A_n \) are mutually exclusive events, then:
 \[ P(A_1 \cup A_2 \cup ... \cup A_n) = P(A_1) + P(A_2) + ... + P(A_n) \]
 
 ### Example
-Consider a die roll. Let:
-- \( A_1 \): rolling a 1
-- \( A_2 \): rolling a 2
+Consider the scenario of selecting a fruit from a basket containing an apple and a banana. Let:
+- \( A_1 \): selecting an apple
+- \( A_2 \): selecting a banana
 
 Then:
-\[ P(A_1) = \frac{1}{6}, \quad P(A_2) = \frac{1}{6} \]
-\[ P(A_1 \cup A_2) = P(A_1) + P(A_2) = \frac{1}{6} + \frac{1}{6} = \frac{1}{3} \]
+\[ P(A_1) = \frac{1}{2}, \quad P(A_2) = \frac{1}{2} \]
+\[ P(A_1 \cup A_2) = P(A_1) + P(A_2) = \frac{1}{2} + \frac{1}{2} = 1 \]
 
 ---
 
@@ -32,13 +32,13 @@ If \( A \) and \( B \) are independent events, then:
 \[ P(A \cap B) = P(A) \cdot P(B) \]
 
 ### Example
-Consider two coin flips. Let:
-- \( A \): getting heads on the first flip
-- \( B \): getting heads on the second flip
+Consider tossing a fair coin and rolling a fair die. Let:
+- \( A \): getting heads on the coin toss
+- \( B \): rolling a 3 on the die
 
 Then:
-\[ P(A) = \frac{1}{2}, \quad P(B) = \frac{1}{2} \]
-\[ P(A \cap B) = P(A) \cdot P(B) = \frac{1}{2} \cdot \frac{1}{2} = \frac{1}{4} \]
+\[ P(A) = \frac{1}{2}, \quad P(B) = \frac{1}{6} \]
+\[ P(A \cap B) = P(A) \cdot P(B) = \frac{1}{2} \cdot \frac{1}{6} = \frac{1}{12} \]
 
 ---
 
@@ -52,17 +52,17 @@ The conditional probability of event \( A \) given event \( B \) is given by:
 \[ P(A | B) = \frac{P(A \cap B)}{P(B)} \]
 
 ### Example
-Suppose we have a deck of cards. Let:
-- \( A \): drawing an Ace
-- \( B \): drawing a red card
+Suppose we have a bag with 3 red balls and 2 blue balls. Let:
+- \( A \): drawing a red ball
+- \( B \): drawing a ball that is not blue (either red or yellow)
 
 Then:
-\[ P(A) = \frac{4}{52}, \quad P(B) = \frac{26}{52} \]
-\[ P(A \cap B) = \frac{2}{52} \] (2 red Aces)
-\[ P(A | B) = \frac{P(A \cap B)}{P(B)} = \frac{\frac{2}{52}}{\frac{26}{52}} = \frac{2}{26} = \frac{1}{13} \]
+\[ P(A) = \frac{3}{5}, \quad P(B) = 1 \] (since all balls are either red or blue)
+\[ P(A \cap B) = P(A) = \frac{3}{5} \] (since drawing a red ball satisfies drawing a non-blue ball)
+\[ P(A | B) = \frac{P(A \cap B)}{P(B)} = \frac{\frac{3}{5}}{1} = \frac{3}{5} \]
 
 ---
 
 ## Conclusion
 
-This document covers the basics of probability with definitions and examples for each concept. You can use these rules to better understand how probabilities are calculated in various scenarios.
+This document covers the basics of probability with definitions and simpler examples for each concept. You can use these rules to better understand how probabilities are calculated in various scenarios.
